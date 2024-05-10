@@ -10,4 +10,3 @@ createApp({
 		};
 	},
 }).mount("#app");
-// :class="myImgStyle"
