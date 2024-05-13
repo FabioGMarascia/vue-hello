@@ -21,6 +21,9 @@
 	<body>
 		<div id="app">
 			<h1 :class="myH1Style">{{ message }}</h1>
+
+			<input type="text" v-model="message" class="d-block mx-auto mb-4" />
+
 			<img :src="myImg" :class="myImgStyle" />
 		</div>
 		<script type="text/javascript" src="./js/script.js"></script>
